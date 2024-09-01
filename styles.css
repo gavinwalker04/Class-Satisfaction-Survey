@@ -19,7 +19,7 @@ fieldset {
     margin-right: 35%;
     border: none;
     border-bottom: 2px solid gray;
-    background-color: #001f33
+    background-color: #001f33;
 }
 
 select {
@@ -30,10 +30,10 @@ select {
 
 input {
     display: block;
+    margin: auto;
     margin-top: 5px;
-    margin-bottom: 5px;
-    width: 100%;
-    padding: 10px;
+    width: 98%;
+    height: 30px;
 }
 
 .inline {
