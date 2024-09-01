@@ -12,6 +12,13 @@ h1, p{
     padding-bottom: 5px;
   }
 
+fieldset {
+    margin-left: 35%;
+    margin-right: 35%;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
 .inline {
     display: inline;
     vertical-align: middle;
