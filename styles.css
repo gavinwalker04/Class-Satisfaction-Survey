@@ -3,3 +3,9 @@ h1, p{
     margin: 0.5em auto;
     padding-bottom: 5px;
   }
+
+.inline {
+    display: inline;
+    vertical-align: middle;
+    width: unset;
+}
