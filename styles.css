@@ -14,6 +14,12 @@ h1, p{
     padding-bottom: 5px;
   }
 
+select {
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+}
+
 fieldset {
     margin-left: 35%;
     margin-right: 35%;
@@ -22,18 +28,20 @@ fieldset {
     background-color: #001f33;
 }
 
-select {
-    display: block;
+label {
     padding: 10px;
-    margin-top: 5px;
 }
 
-input {
+.info {
     display: block;
-    margin: auto;
-    margin-top: 5px;
+    margin: 5px auto;
     width: 98%;
-    height: 30px;
+    height: 28px
+}
+
+textarea {
+    margin: auto;
+    width: 100%;
 }
 
 .inline {
@@ -42,21 +50,12 @@ input {
     width: unset;
 }
 
-label {
-    padding: 10px;
-}
-
 label, textarea {
     display: block;
     margin-top: 10px;
-  }
+}
 
-textarea {
-    margin: auto;
-    width: 100%;
-  }
-
-  input[type="submit"] {
+input[type="submit"] {
     display: block;
     margin: auto;
     margin-top: 10px;
@@ -64,5 +63,5 @@ textarea {
     height: 2em;
     width: 30%;
     font-size: 2rem;
-    background-color: #9ae59a; 
-  }
+    background-color: #9ae59a;
+}
