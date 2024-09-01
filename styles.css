@@ -19,6 +19,14 @@ fieldset {
     border-bottom: 2px solid gray;
 }
 
+input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
 .inline {
     display: inline;
     vertical-align: middle;
