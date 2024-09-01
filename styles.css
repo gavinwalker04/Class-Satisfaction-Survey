@@ -46,6 +46,7 @@ label {
 textarea {
     margin: auto;
     width: 100%;
+    resize: none;    
 }
 
 .inline {
