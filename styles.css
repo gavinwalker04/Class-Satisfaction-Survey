@@ -80,3 +80,7 @@ input[type="submit"]:hover {
     background-color: #003d66;
     cursor: pointer;
 }
+
+.dropdown, .inline:hover {
+    cursor: pointer;
+}
