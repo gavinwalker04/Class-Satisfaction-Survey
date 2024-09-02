@@ -34,6 +34,7 @@ fieldset {
 
 label {
     padding: 10px;
+    padding-left: 11px;
 }
 
 .info {
@@ -41,6 +42,11 @@ label {
     margin: 5px auto;
     width: 98%;
     height: 28px
+}
+
+input, .dropdown, textarea{
+    border-radius: 7px;
+    border: none;
 }
 
 textarea {
