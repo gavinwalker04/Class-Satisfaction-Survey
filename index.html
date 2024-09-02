@@ -10,7 +10,7 @@
     <h1 id="title">Class Satisfaction Survey</h1>
     <p id="description">Please fill out this survey regarding your satisfaction with this class.</p>
     <form id="survey-form">
-        <fieldset>
+        <fieldset class="top">
             <label for="name">Name <input class="info" id="name" type="text" name="full-name" placeholder="Enter your name" required/></label>
             <label for="email">Email <input class="info" id="email" type="email" name="email" required placeholder="Enter your email"/></label>
             <label for="number">Number (optional)<input class="info" min="0" max="99999999999" id="number" type="number" name="phone-number" required placeholder="Enter number"/></label>
@@ -41,7 +41,7 @@
             <label><input value="5" class="inline" type="checkbox"/> I have come away with a solid foundation of this course</label>
             <label><input value="6" class="inline" type="checkbox"/> I can apply what I learned to real life situations</label>
         </fieldset>
-        <fieldset>
+        <fieldset class="bottom">
             <label for="comments">Please provide any additional comments you have...
                 <textarea rows="4" id="comments"></textarea>
             </label>

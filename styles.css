@@ -28,7 +28,7 @@ fieldset {
     margin-left: 35%;
     margin-right: 35%;
     border: none;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(33, 42, 70);
     background-color: #001f33;
 }
 
@@ -83,4 +83,15 @@ input[type="submit"]:hover {
 
 .dropdown, .inline:hover {
     cursor: pointer;
+}
+
+.top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bottom {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
 }
